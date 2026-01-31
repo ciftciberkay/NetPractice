@@ -11,7 +11,7 @@ The project consists of 10 levels of increasing difficulty where we must manuall
 
 ### Installation & Execution
 1.  Download the project files and extract them into a folder.
-2.  You can run the "index.html" file and use it in either evaluation or training mode.
+2.  To start the local web server, run the `./run.sh` command. If it doesn’t work, run `python3 -m http.server 49242` manually and then go to `http://localhost:49242` in your browser.
 
 ### Usage
 1.  **Login:** Enter the intranet login (`beciftci`) in the login field on the main page. This is crucial for generating the correct configuration for evaluation.
