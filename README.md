@@ -9,14 +9,15 @@ The project consists of 10 levels of increasing difficulty where we must manuall
 
 ## Instructions
 
-### Installation & Execution
-1.  Download the project files and extract them into a folder.
-2.  To start the local web server, run the `./run.sh` command. If it doesn’t work, run `python3 -m http.server 49242` manually and then go to `http://localhost:49242` in your browser.
+### Open the exercises
 
-### Usage
-1.  **Login:** Enter the intranet login (`beciftci`) in the login field on the main page. This is crucial for generating the correct configuration for evaluation.
-2.  **Solving Levels:** Modify the empty fields (IPs, masks, routes) until the network behaves correctly.
-3.  **Exporting:** Once a level is solved, click the **"Get my config"** button to download the configuration file for that specific level.
+This repository contains ten exported JSON configurations, from [level1.json](./level1.json) through [level10.json](./level10.json). Obtain the NetPractice exercise package separately through the 42 Intranet. Run its `run.sh` from the extracted exercise directory to open the simulator.
+
+### Use the simulator
+
+1. Enter your 42 login in the simulator.
+2. Adjust IP addresses, subnet masks, and routes until the devices can communicate.
+3. Use **Get my config** to export each completed level.
 
 ### Submission
 To submit this project, the 10 exported configuration files (one for each level) have been placed at the root of this Git repository as required.
